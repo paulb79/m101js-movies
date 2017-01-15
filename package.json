@@ -1,0 +1,26 @@
+{
+  "name": "m101js-movies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulb79/m101js-movies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulb79/m101js-movies/issues"
+  },
+  "homepage": "https://github.com/paulb79/m101js-movies#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.7.6",
+    "morgan": "^1.7.0"
+  }
+}

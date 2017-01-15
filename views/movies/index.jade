@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  
+  .container
+    h1 movies
+    
+    .row
+      .col-md-6
+        -movies.forEach(function(movie) {
+        #{ movie.title() }
+        })
